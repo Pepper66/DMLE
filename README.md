@@ -7,6 +7,8 @@ DMLE is designed for editing structured rules that must remain consistent across
 Paper: [Distributed Multi-Layer Editing for Rule-Level Knowledge in Large Language Models](https://arxiv.org/pdf/2604.08284)  
 Code: [https://github.com/Pepper66/DMLE](https://github.com/Pepper66/DMLE)
 
+![DMLE framework](assets/dmle-framework.png)
+
 ## Overview
 
 Most model editing methods are developed for fact-level knowledge, where a target edit is usually represented as a single association. Rule-level knowledge is more complex: the same rule may appear as a formula, a textual explanation, or a concrete numerical application. A successful edit should update all of these forms coherently while preserving unrelated model behavior.
